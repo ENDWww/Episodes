@@ -7,7 +7,7 @@ class TwitchBot
 
   def initialize
     @nickname = "AlwaysBotCoding"
-    @password = "oauth:jatx00edq9zqsqqk2nyfm53xrfawz2"
+    @password = "oauth:65zp7h8d7vfbm4uvygrwn53m9ylgu2"
     @channel = "alwaysbcoding"
     @socket = TCPSocket.open(TWITCH_HOST, TWITCH_PORT)
 
